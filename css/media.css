@@ -1,0 +1,717 @@
+/* mobile HEIGHT fixes */
+@media only screen and (max-height : 1600px) {
+    .offer-call{
+        margin-top: 200px;
+    }
+}
+
+@media only screen and (max-height : 1000px) {
+    .header-logo{
+        margin-top: 25px;
+    }
+    .header-title, .about-title, .prod-title{
+        margin-top: 55px;
+    }
+    .art-title{
+        margin-top: 105px;
+    }
+    .con-title{
+        margin-top: 55px;
+    }
+    .header-button{
+        margin-top: 55px;
+    }
+}
+
+@media only screen and (max-height : 700px) {
+    .con-row-1, .con-title{
+        margin-top: 10px;
+    }
+    .offer-call{
+        margin-top: 75px;
+    }
+    #section-header, #header-about, #header-prod, #header-chem,  #section1, #header-art, #header-art-1, #header-art-2, #header-contacts, .section1-chemistry, .section1-systems{
+        height: 700px;
+    }
+    .header-navigation{
+        margin-top: 85px;
+    }
+	
+}
+
+/* mobile WIDTH fixes */
+@media only screen and (max-width : 2380px) {
+    .chemistry-button{
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width : 1640px) {
+    
+    .about-title p{
+        font-size: 16px;
+    }
+    .prod-title p{
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width : 1549px) {
+    .chemistry-button{
+        margin-top: 45px;
+    }
+}
+
+@media only screen and (max-width : 1500px) {
+    .header-title h1, .about-title h1, .prod-title h1, .art-title h1, .con-title h1{
+        font-size: 45px;
+    }
+    .contact-form .offer-form-part textarea{
+        margin-left: 20px;
+        margin-top: 20px;
+        height: 150px;
+    }
+    
+}
+
+@media only screen and (max-width : 1400px) {
+    .chemistry-button{
+        margin-top: 65px;
+    }
+    .new-article{
+        width: 100%;
+    }
+    .section-activity{
+        margin-top: -75px;
+    }
+}
+
+@media only screen and (max-width : 1320px) {
+    .box-text, .box-img-reliability, .box-img-partnership, .box-img-benefit{
+        width: 50%;
+    }
+    .box-prod{
+        width: 50%;
+        height: 500px;
+    }
+    .box-img-vodosnabjenie-1, .box-img-vodosnabjenie-2, .box-img-vodosnabjenie-3, .box-img-vodosnabjenie-1-850, .box-img-vodosnabjenie-3-850, .box-img-teplosnabjenie-1, .box-img-teplosnabjenie-2, .box-img-teplosnabjenie-3, .box-img-teplosnabjenie-1-850, .box-img-teplosnabjenie-3-850, .box-img-aggressive-1, .box-img-aggressive-2, .box-img-aggressive-1-850, .box-img-gazosnabjenie-1, .box-img-gazosnabjenie-2, .box-img-gazosnabjenie-1-850{
+        width: 50%;
+        height: 500px;
+    }
+    .box-img-dobavki-1, .box-img-dobavki-2, .box-img-dobavki-3, .box-img-remont-1, .box-img-remont-2, .box-img-remont-3, .box-img-remont-4, .box-img-remont-5, .box-img-remont-6 {
+        width: 50%;
+        height: 500px;
+    }
+    .box-img-promy-1, .box-img-hydro-1, .box-img-klei-1{
+        width: 50%;
+        height: 500px;
+    }
+    .contact-form .offer-form-part textarea{
+        margin-left: 10px;
+        margin-top: 10px;
+        height: 100px;
+    }
+    .contact-form .offer-form-part input{
+        margin: 10px;
+    }
+}
+
+@media only screen and (max-width : 1200px) {
+    .prod-row, .chem-row{
+        display: none;
+    }
+    .prod-select, .chem-select{
+        display: block;
+    }
+    .prod-navigation{
+        width: 600px;
+    }
+    .chem-navigation{
+        width: 580px;
+    }
+    .foot-row{
+        margin-right: 30px;
+    }
+    .section1-chemistry h1, .section1-systems h1{
+        margin-top: 180px;
+        font-size: 36px;
+    }
+    .activity-start{
+        top: 100px;
+    }
+    .activity-start h1{
+        margin: 35px 5px 2px 5px;
+        font-size: 24px;
+    }
+    .activity-start p{
+        font-size: 15px;
+        margin: 2px 5px 35px 5px;
+    }
+    .offer-title h1{
+        font-size: 28px;
+    }
+    .causes-bottom-1, .causes-bottom-2{
+        height: 200px;
+        width: 350px;
+    }
+    .causes-bottom-1 h1, .causes-bottom-2 h1{
+        margin-top: 50px;
+        font-size: 16px;
+    }
+    .causes-top-1, .causes-top-2{
+        height: 200px;
+        width: 350px;
+    }
+    .causes-top-1 h1, .causes-top-2 h1{
+        margin-top: 50px;
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width : 1000px) {
+    .loader-right, .loader-left, .loader_inner, .loader{
+        display: none;
+    }
+    .section-contacts{
+        height: auto;
+    }
+    .contact-form{
+        position: static;
+    }
+    .mobile-map{
+        display: block;
+    }
+    #map{
+        display: none;
+    }
+    .con-left, .con-right{
+        float: left;
+        text-align: center;
+        width: 100%;
+    }
+    .con-row-1, .con-row{
+        margin-top: 10;
+        font-size: 12px;
+    }
+
+    .foot-row, .foot-ginnova{
+        margin: 5px 0 5px 0;
+        width: 100%;
+        text-align: center;
+    }
+    .foot-gin{
+        float: none;
+        display: inline-block;
+    }
+    .section1-chemistry h1, .section1-systems h1{
+        margin-top: 150px;
+        font-size: 26px;
+    }
+    .section1-chemistry p, .section1-systems p{
+        margin: 55px auto 100px;
+    }
+    .prod-row-img{
+        height: 200px;
+    }
+    .prod-row-text, .prod-row-img, .prod-row-adv{
+        margin: 0;
+        padding: 1%;
+        width: 98%;
+    }
+    .prod-row-text p{
+        margin: 0 15px 0 15px;
+    }
+    .prod-row-adv ul{
+        margin: 15px;
+    }
+    .contact-form{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .contact-form .offer-form-part input, .contact-form .offer-form-part textarea{
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width : 950px) {
+    .box-prod ul{
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width : 850px) {
+    .box-prod-margin-top{
+        margin-top: 50px;
+    }
+    .pol-fit-margin-top{
+        margin-top: 50px;
+    }
+    
+    .box-img-dobavki-1, .box-img-dobavki-2, .box-img-dobavki-3, .box-img-remont-1, .box-img-remont-2, .box-img-remont-3, .box-img-remont-4, .box-img-remont-5, .box-img-remont-6 {
+        width: 100%;
+        float: left;
+        height: 350px;
+    }
+    
+    .box-img-remont-1-850, .box-img-remont-3-850, .box-img-remont-5-850{
+        width: 100%;
+        float: left;
+        height: 350px;
+        display: block;
+    }
+    
+    .box-img-remont-1, .box-img-remont-3, .box-img-remont-5{
+        display: none;
+    }
+    
+    .box-img-promy-1, .box-img-hydro-1, .box-img-klei-1, .box-img-promy-1-850, .box-img-hydro-1-850, .box-img-klei-1-850{
+        width: 100%;
+        float: left;
+        height: 350px;
+    }
+    
+    .box-img-dobavki-1-850, .box-img-dobavki-3-850{
+        width: 100%;
+        float: left;
+        height: 350px;
+    }
+    
+    .box-img-dobavki-1-850, .box-img-dobavki-3-850{
+        display: block;
+    }
+    
+    .box-img-dobavki-1, .box-img-dobavki-3{
+        display: none;
+    }
+    
+    .box-img-promy-1, .box-img-hydro-1, .box-img-klei-1{
+        display: none;
+    }
+    
+    .box-img-promy-1-850, .box-img-hydro-1-850, .box-img-klei-1-850{
+        display: block;
+    }
+    
+    .box-text, .box-img-reliability, .box-img-partnership, .box-img-benefit-850{
+        width: 100%;
+        height: 270px;
+        float: left;
+    }
+    .box-img-vodosnabjenie-1, .box-img-vodosnabjenie-2, .box-img-vodosnabjenie-1-850, .box-img-vodosnabjenie-3-850, .box-img-vodosnabjenie-3{
+        width: 100%;
+        float: left;
+        height: 350px;
+    }
+    .box-prod{
+        width: 100%;
+        float: left;
+        height: auto;
+        padding-bottom: 50px;
+    }
+    .box-img-vodosnabjenie-1, .box-img-vodosnabjenie-3{
+        display: none;
+    }
+    .box-img-vodosnabjenie-1-850, .box-img-vodosnabjenie-3-850{
+        display: block;
+    }
+    .box-img-teplosnabjenie-1, .box-img-teplosnabjenie-2, .box-img-teplosnabjenie-3, .box-img-teplosnabjenie-1-850, .box-img-teplosnabjenie-3-850{
+        width: 100%;
+        float: left;
+        height: 350px;
+    }
+    .box-img-teplosnabjenie-1, .box-img-teplosnabjenie-3{
+        display: none;
+    }
+    .box-img-teplosnabjenie-1-850, .box-img-teplosnabjenie-3-850{
+        display: block;
+    }
+    .box-img-aggressive-1, .box-img-aggressive-2, .box-img-aggressive-1-850{
+        width: 100%;
+        float: left;
+        height: 350px;
+    }
+    
+    .box-img-aggressive-1{
+        display: none;
+    }
+    .box-img-aggressive-1-850{
+        display: block;
+    }
+    .box-img-gazosnabjenie-1, .box-img-gazosnabjenie-2, .box-img-gazosnabjenie-1-850{
+        width: 100%;
+        float: left;
+        height: 350px;
+    }
+    .box-img-gazosnabjenie-1{
+        display: none;
+    }
+    .box-img-gazosnabjenie-1-850{
+        display: block;
+    }
+    .box-prod h2, .box-prod h2:first-child,  .box-prod ul{
+        margin: 25px;
+    }
+    .box-img-benefit{
+        display: none;
+    }
+    .box-img-benefit-850{
+        display: block;
+    }
+    .activity-start{
+        top: 25px;
+        width: 100px;
+    }
+    .activity-start h1{
+        margin: 35px 5px 2px 5px;
+        font-size: 18px;
+    }
+    .activity-start p{
+        font-size: 13px;
+        margin: 2px 5px 35px 5px;
+    }
+    .in-text p{
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width : 800px) {
+    .con-row-1, .con-row{
+        margin-top: 10px;
+    }
+    .header-prod, .footer-prod{
+        display: none;
+    }
+    .header-nav-mobile, .footer-nav-mobile{
+        display: block;
+    }
+    .footer-mob-hide{
+        display: none;
+    }
+    .footer-mob{
+        display: block;
+    }
+    .nav-active{
+        background: #232323;
+        color: #fff;
+    }
+    .header-logo{
+        margin-top: 0;
+    }
+    .header-logo img{
+        float: left;
+        width: 75px;
+        margin: 25px;
+        display: none;
+    }
+    .header-address{
+        display: block;
+    }
+    .header-navigation{
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 0;
+        float: none;
+        width: 200px;
+        text-align: left;
+        z-index: 5;
+        display: none;
+        background: #303030;
+    }
+    .header-navigation-panel{
+        margin-top: 55px;
+        margin-bottom: 50px;
+        width: 100%;
+        background: #303030;
+    }
+    .header-nav{
+        float: left;
+        margin: 0;
+        height: 80px;
+        width: 100%;
+    }
+    .burger-menu{
+        display: block;
+    }
+    .footer-nav{
+        width: 100%;
+        margin: 0;
+    }
+    .footer-nav p{
+        margin: 5px;
+        font-size: 14px;
+    }
+    .activity-box-left h1, .activity-box-right h1, .activity-box-partners h1{
+        font-size: 17px;
+    }
+    .activity-box-left p, .activity-box-right p, .activity-box-partners p{
+        font-size: 14px;
+    }
+    .prod-option select, .chem-option select{
+        width: 400px;
+        font-size: 16px;
+    }
+    
+}
+
+@media only screen and (max-width : 750px) {
+    .about-title p{
+        font-size: 14px;
+    }
+    .prod-title p{
+        font-size: 14px;
+    }
+    .header-title h1,  .about-title h1, .prod-title h1, .art-title h1, .con-title h1{
+        font-size: 20px;
+    }
+    .header-title, .about-title, .prod-title{
+        margin-top: 100px;
+    }
+    .art-title{
+        margin-top: 100px;
+    }
+    .con-title{
+        margin-top: 50px;
+    }
+    .header-button{
+        margin-top: 55px;
+    }
+    #section1{
+        height: 800px;
+    }
+    .section1-chemistry, .section1-systems{
+        height: 400px;
+        width: 100%;
+    }
+    .section1-chemistry h1, .section1-systems h1{
+        margin-top: 100px;
+    }
+    .section1-chemistry p, .section1-systems p{
+        margin: 25px auto 45px;
+    }
+    .section1-chemistry h1, .section1-systems h1{
+        font-size: 18px;
+    }
+    .causes-title h1{
+        font-size: 22px;
+    }
+    .offer-form-part{
+        width: 100%;
+    }
+    .offer-form-part textarea{
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .offer-modal-part{
+        width: 100%;
+    }
+    .offer-modal-part input{
+        text-align: center;
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+    .offer-modal-part textarea{
+        text-align: center;
+        height: 50px;
+        margin-left: 20px;
+        margin-top: 5px;
+    }
+    .causes-bottom-align, .causes-top-align{
+        width: 350px;
+    }
+    .section1-chemistry h1, .section1-systems h1{
+        margin-top: 75px;
+    }
+    .partners-logos{
+        width: 100%;
+    }
+    .partners-logo{
+        width: 80%;
+        margin-left: 15%;
+        margin-right: 5%;
+    }
+    .partners-logos img{
+        width: 100%;
+    }
+    .activity-start{
+        left: 0;
+    }
+    .prod-navigation{
+        width: 300px;
+    }
+    .chem-navigation{
+        width: 240px;
+    }
+    .in-row-1, .in-row-2{
+        width: 100%;
+    }
+    .in-row-1{
+        background: #232323;
+        color: #fff;
+    }
+    .in-date{
+        padding: 25px 50px 25px;
+        background: #232323;
+        color: #fff;
+        width: 500px;
+        height: 40px;
+    }
+    .in-date .art-date-1, .in-date .art-date-2, .in-date .art-date-3{
+        height: 40px;
+        margin: 0 5px 0 0;
+        width: auto;
+        font-size: 18px;
+        text-align: left;
+    }
+    .in-title p{
+        margin: 25px 50px;
+    }
+    .in-text p{
+        margin: 25px 50px;
+    }
+    .section-activity{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+}
+
+@media only screen and (max-width : 650px) { 
+    .prod-row-adv{
+        height: 600px;
+    }
+    .prod-row-text{
+        height: 250px;
+    }
+    .article{
+        width: 90%;
+    }
+	.thx{
+		left: 10%;
+		width: 80%;
+	}
+}
+
+@media only screen and (max-width : 550px) { 
+    .activity-box-left, .activity-box-right, .activity-box-partners{
+        height: 350px;
+    }
+    .box-text h1{
+        font-size: 22px;
+    }
+    .box-text h1{
+        margin: 35px 10px 10px 10px;
+    }
+    .box-text p{
+        margin: 10px;          
+    }
+    .section-activity{
+        width: 100%;
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .about-title p{
+        font-size: 12px;
+    }
+    .prod-title p{
+        font-size: 12px;
+    }
+    /*
+    .box-prod{
+        height: 400px;
+    }
+    */
+    .box-prod-margin-top{
+        margin-top: 50px;
+    }
+    .pol-fit-margin-top{
+        margin-top: 50px;
+    }
+    .prod-option select, .chem-option select{
+        width: 200px;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width : 450px) { 
+    .section1-systems h1{
+        margin-top: 35px;
+    }
+    .section1-chemistry p{
+        margin: 25px;
+    }
+    .chemistry-button{
+        margin-top: 50px;
+    }
+    .section1-systems p{
+        font-size: 14px;
+    }
+    .activity-start{
+        top: 15px;
+        width: 100px;
+    }
+    .activity-start h1{
+        margin: 15px 5px 2px 5px;
+    }
+    .activity-start p{
+        font-size: 10px;
+        margin: 2px 5px 15px 5px;
+    }
+    .partners-logo{
+        width: 100%;
+        margin: 0;
+    }
+    .foot-ginnova{
+        font-size: 13px;
+    }
+    .prod-row-adv{
+        height: 700px;
+    }
+    /*
+    .box-prod{
+        height: 450px;
+    }
+    */
+    .in-date{
+        padding: 20px;
+    }
+    .in-title p{
+        margin: 20px;
+    }
+    .in-text p{
+        margin: 20px;
+    }
+}
+
+
+@media only screen and (max-width : 480px) { 
+    .art-more .button-order{
+        float: left;
+        margin: 50px;
+        padding: 15px;
+    }    
+}
+
+
+@media only screen and (max-width : 350px) {
+    .causes-bottom-align, .causes-top-align{
+        width: 300px;
+    }
+    .causes-bottom-1, .causes-bottom-2{
+        height: 200px;
+        width: 300px;
+    }
+    .causes-top-1, .causes-top-2{
+        height: 200px;
+        width: 300px;
+    }
+    .causes-top-1 h1, .causes-top-2 h1, .causes-bottom-1 h1, .causes-bottom-2 h1{
+        font-size: 14px;
+    }
+    .section1-systems p{
+        font-size: 12px;
+    }
+     .prod-row-adv{
+            height: 800px;
+        }
+}

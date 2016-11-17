@@ -1,0 +1,828 @@
+body{
+    background: #E5E5E4;
+}
+.wrapper{
+    float: left;
+    margin-top: 25px;
+    width: 98%;
+    
+    /* FOR DESCKTOP ONLY */
+    min-width: 900px;
+    /* */
+    
+    height: auto;
+    margin-left: 1%;
+    background: #000;
+}
+.wrap{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}
+.navigation{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 98%;
+    margin-left: 1%;
+    
+    height: 80px;
+    background: rgba(255,255,255,0.9);
+    padding: 30px 0 0 0;
+    z-index: 10;
+}
+.nav-burger{
+    float: left;
+    position: relative;
+    width: 25px;
+    height: 23px;
+    margin-top: 15px;
+    margin-right: 80px;
+    margin-left: 30px;
+    cursor: pointer;
+
+}
+.nav-burger-1, .nav-burger-2 , .nav-burger-3{
+    position: absolute;
+    background: #000;
+    left: 10%;
+    width: 80%;
+    height: 2px;
+}
+.nav-burger-1{
+    top: 5px;
+}
+.nav-burger-2{
+    top: 10px;
+}
+.nav-burger-3{
+    top: 15px;
+}
+.nav-logo{
+    float: left;
+    width: 160px;
+    height: 50px;
+    margin-right: 60px;
+    margin-top: 5px;
+}
+.nav-logo img{
+    float: left;
+    width: 100%;
+}
+
+.nav{
+    float: left;
+    width: auto;
+    margin-right: 60px;
+}
+.nav-right{
+    float: right;
+    width: auto;
+    margin-right: 60px;
+}
+.nav a, .nav-right a{
+    color: #000;
+    font-weight: 600;
+}
+
+.nav-hover{
+    margin-top: 15px;
+    position: relative;
+}
+.nav-hover-border{
+    position: absolute;
+    height: 0px;
+    width: 100%;
+    top: -45px;
+    
+    background: #12939A; 
+    
+    -webkit-transition: .2s linear;
+    transition: .2s linear;
+}
+
+.nav-hover:hover .nav-hover-border{
+    height: 5px;
+}
+
+
+
+.nav-hover a{
+    -webkit-transition: .1s linear;
+    transition: .1s linear;
+}
+.nav-hover:hover a{
+    color: #12939A;
+}
+
+
+.header{
+    float: left;
+    width: 100%;
+    background: #fff;
+    padding-bottom: 50px;
+}
+.header-dr{
+    padding-top: 40px;
+}
+.header h1{
+    margin-top: 100px;
+    margin-left: 135px;
+    color: #000;
+    
+    font-size: 44px;
+    font-weight: 100;
+    font-family: "AgoraSansProRegular";
+}
+.header h2{
+    margin-top: 10px;
+    margin-left: 135px;
+    color: #000;
+    
+    font-size: 44px;
+    font-weight: 100;
+    font-family: "AgoraSansProThin";
+}
+
+.main-pattern{
+    float: left;
+    width: 100%;
+    height: auto;
+    
+    background: url(../img/pattern.svg) repeat;
+    background-size: 23%;
+}
+.header-image{
+    float: left;
+    width: 75%;
+    height: auto;
+    position: relative;
+    z-index: 3;
+}
+.header-2{
+    width: 80%;
+}
+.header-form-right{
+    position: absolute;
+    height: auto;
+    width: 150px;
+    right: 0;
+    top: 250px;
+    background: #000;
+    z-index: 4;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.form-row{
+    float: left;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 40px;
+    font-size: 21px;
+    line-height: 22px;
+    color: #fff;
+}
+.form-cub{
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-left: 100px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background: #0e667e;
+}
+
+.header-form-left{
+    position: absolute;
+    height: auto;
+    width: 200px;
+    right: -200px;
+    top: 250px;
+    background: #0e667e;
+    z-index: 4;
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+.header-form-dr{
+    top: 100px;
+}
+.header-form-left input{
+    font-size: 15px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgba(255,255,255,0.6);
+    padding: 30px 20px 10px 20px;
+    font-family:"AgoraSansProRegular";
+    background: rgba(0,0,0,0);
+    width: 38%;
+    margin-right: 25px;
+    max-width: 500px;
+    color: #fff;
+}
+.header-form-left input:focus {
+    border-bottom: 1px solid #3ab8bd;
+}
+.header-form-left button{
+    float: left;
+    
+    padding: 16px 40px;
+    margin-top: 8px;
+    letter-spacing: 2px;
+    
+    -webkit-transition: .3s linear;
+    transition: .3s linear;
+    
+    font-family: "AgoraSansProRegular";
+    font-weight: bold;
+    font-size: 16px;
+    
+    font-weight: 600;
+    border: none;
+    outline: none;
+    
+    background: #000;
+    color: #fff;
+}
+.header-form-left button:hover{
+    background: #fff;;
+    color: #000;
+}
+
+.header-image img{
+    float: left;
+    width: 100%;
+}
+
+
+.main-tel{
+    float: left;
+    width: 95%;
+    margin-top: -50px;
+    background: #fff;
+    height: auto;
+    z-index: 2;
+}
+.tel-left{
+    float: left;
+    position: relative;
+    width: 50%;
+    height: 300vh;
+}
+.tel-right{
+    float: left;
+    width: 50%;
+    height: auto;
+}
+
+
+.telephone, .telephone-2, .telephone-3{
+    float: left;
+    height: 100vh;
+    width: 60%;
+    z-index: 2;
+}
+.tel-fixed{
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 60%;
+    z-index: 3;
+    background: #fff;
+    display: none;
+}
+
+.tel-img{
+    float: left;
+    position: relative;
+    margin-top: 20vh;
+    margin-left: 35%;
+    height: 60vh;
+    width: 60%;
+    background: url(../img/phone.svg) center center no-repeat;
+    background-size: 100% 100%;
+}
+.tel-flow{
+    float: left;
+    overflow: hidden;
+}
+.inner-1{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    height: 100%;
+    width: 100%;
+    background: url(../img/phone1.svg) center center no-repeat;
+    background-size: 100% 100%;
+}
+.inner-2{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    height: 100%;
+    width: 100%;
+    background: url(../img/phone2.svg) center center no-repeat;
+    background-size: 100% 100%;
+}
+.inner-3{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    height: 100%;
+    width: 100%;
+    background: url(../img/phone3.svg) center center no-repeat;
+    background-size: 100% 100%;
+}
+
+#tel-ch-2, #tel-ch-3{
+    display: none;
+}
+
+.tel-right-line{
+    float: left;
+    height: 2px;
+    width: 30px;
+    margin-top: 50px;
+    margin-left: 5%;
+    background: #ccc;
+}
+
+.tel-right-section{
+    float: left;
+    width: 100%;
+    padding-top: 30vh;
+    padding-bottom: 20vh;
+    height: 50vh;
+    text-align: center;
+}
+.tel-right-section h1{
+    float: left;
+    width: 60%;
+    margin-right: 40%;
+    margin-top: 15px;
+    font-size: 40px;
+    font-weight: 900;
+    font: 'AgoraSansProBold';
+}
+.tel-right-section p{
+    float: left;
+    width: 60%;
+    margin-right:40%;
+    margin-top: 50px;
+    padding-right: 20%;
+    font-size: 17px;
+}
+
+.main-tesla{
+    float: left;
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: #F8F8F9;
+    z-index: 1;
+}
+.tel-line{
+    position: absolute;
+    height: 50px;
+    top: 0;
+    width: 95%;
+    background: #fff;
+    z-index: 2;
+}
+.main-tesla-text{
+    float: left;
+    width: 50%;
+    height: auto;
+    text-align: center;
+}
+.main-tesla-text h2{
+    color: #C7C7C7;
+    font-size: 24px;
+    width: 100%;
+}
+.main-tesla-text h1{
+    margin-top: 125px;
+    font-size: 28px;
+    width: 100%;
+}
+.main-tesla-text p{
+    margin-top: 35px;
+    width: 100%;
+}
+.main-tesla-img{
+    float: left;
+    width: 50%;
+    height: auto;
+}
+.main-tesla-img img{
+    float: left;
+    width: 100%;
+}
+
+#tablet{
+    float: left;
+    width: 100%;
+    padding-top: 75px;
+    min-height: 300px;
+    background: #fff;
+}
+.tablet-row{
+    float: left;
+    width: 100%;
+}
+.tablet-l, .tablet-r{
+    float: left;
+    width: 20%;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+.tablet-l h1, .tablet-r h1{
+    float: left;
+    color: #323232;
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    padding-bottom: 15px;
+    border-bottom: 6px dotted #e4e4e4;
+}
+.tablet-l span, .tablet-r span{
+    color: #0093AC;
+}
+.tablet-b{
+    float: left;
+    width: 20%;
+    margin-top: 35px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.tablet-e{
+    float: left;
+    width: 40%;
+    height: 50px;
+}
+.tablet-i{
+    float: left;
+    width: 40%;
+}
+.tablet-i img{
+    float: left;
+    width: 100%;
+}
+
+.tablet-b h1{
+    float: left;
+    color: #323232;
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    margin-bottom: 35px;
+    padding-bottom: 15px;
+    border-bottom: 6px dotted #e4e4e4;
+}
+.tablet-b span{
+    color: #0093AC;
+}
+
+.footer-img{
+    float: left;
+    width: 100%;
+}
+.footer-img img{
+    float: right;
+    position: relative;
+    height: 700px;
+    margin-bottom: -200px;
+    z-index: 2;
+    margin-right: 50px;
+}
+
+.footer{
+    position: relative;
+    z-index: 1;
+    float: left;
+    width: 100%;
+    height: 350px;
+    
+    color: #fff;
+    background: #000;
+}
+.footer-logo-ios{
+    float: left;
+    width: 110px;
+    height: 30px;
+    margin: 150px 250px;
+    background: url(../img/app-store.png) center center no-repeat;
+    background-size: 100% 100%;
+}
+.footer-logo-android{
+    float: left;
+    width: 110px;
+    height: 30px;
+    margin: 150px 250px;
+    background: url(../img/google-play.png) center center no-repeat;
+    background-size: 100% 100%;
+}
+
+.driver-1{
+    float: left;
+    width: 90%;
+    height: auto;
+    background: #fff;
+    padding-bottom: 75px;
+}
+.driver-1 h1{
+    float: left;
+    width: 100%;
+    margin-top: 100px;    
+    font-size: 52px;
+    
+    font-weight: 900;
+    color: #0e667e;
+}
+.driver-1 h2{
+    float: left;
+    width: 100%;
+    font-size: 42px;
+    
+    font-weight: 100;
+    color: #000;
+}
+.dr-1{
+    float: left;
+    width: 33%;
+}
+.dr-img{
+    float: left;
+    width: 100%;
+}
+.dr-img img{
+    display: block;
+    margin: 35px auto 0;
+    width: 120px;
+}
+
+.dr-1 h1{
+    float: left;
+    margin: 35px 10% 0 10%;
+    width: 80%;
+    font-size: 18px;
+    font-weight: 900;
+    color: #0e667e;
+}
+.dr-1 p{
+    float: left;
+    margin: 15px 10% 0 10%;
+    width: 80%;
+    font-size: 16px;
+    
+    font-weight: 100;
+    color: #000;
+}
+.driver-2{
+    float: left;
+    width: 90%;
+    
+    background: #f8f8f8;
+    padding-bottom: 75px;
+}
+.driver-2 h1{
+    float: left;
+    width: 100%;
+    margin-top: 75px;
+    
+    font-size: 16px;
+    font-weight: 100;
+    color: #919191
+}
+.driver-2 h2{
+    float: left;
+    width: 100%;
+    
+    width: 100%;
+    font-size: 42px;
+    
+    font-weight: 100;
+    color: #0e667e;
+    
+    margin-bottom: 50px;
+}
+.dr-2{
+    float: left;
+    width: 33%;
+    margin-bottom: 100px;
+}
+.dr-2 h3{
+    float: left;
+    width: 90%;
+    margin-right: 10%;
+    margin-top: 25px;
+    
+    font-size: 20px;
+    font-weight: 600;
+    color: #4c8d9f;
+}
+.dr-2 p{
+    float: left;
+    width: 90%;
+    margin-right: 10%;
+    
+    font-size: 16px;
+    color: #000;
+}
+.dr-cr{
+    float: left;
+    width: 30px;
+    height: 30px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    
+    color: #d3d3d1;
+    border: 2px solid #d3d3d1;
+}
+.dr-cr span{
+    float: left;
+    margin-top: 5px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+.dr-line{
+    float: left;
+    width: calc(100% - 34px);
+    height: 2px;
+    margin-top: 16px;
+    
+    background: #d3d3d1;
+}
+
+.driver-button{
+    float: left;
+    position: relative;
+    padding: 15px 65px 15px 25px;
+    width: auto;
+    height: 22px;
+    
+    -webkit-transition: .3s linear;
+    transition: .3s linear;
+    
+    background: #0094ac;
+    cursor: pointer;
+    
+}
+.driver-button span{
+    float: left;
+    width: 100%;
+    font-size: 16px;
+    color: #fff;
+    
+}
+.btn-arrow{
+    position: absolute;
+    right: 10px;
+    width: 33px;
+    
+    -webkit-transition: .3s linear;
+    transition: .3s linear;
+}
+.btn-arrow img{
+    width: inherit;
+}
+.driver-button:hover .btn-arrow{
+    right: 15px;
+}
+.driver-button:hover{
+    background: #02afcb;
+}
+
+.driver-3{
+    float: left;
+    width: 90%;
+    
+    background: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.dr-left{
+    float: left;
+    width: 60%;
+    
+    margin-top: 25px;
+}
+.dr-left h1{
+    float: left;
+    width: 100%;
+    
+    font-size: 17px;
+    font-weight: 100;
+    color: #6c6c6c;
+}
+.dr-left h2{
+    
+    float: left;
+    width: 100%;
+    
+    width: 100%;
+    font-size: 42px;
+    
+    font-weight: 100;
+    color: #0e667e;
+}
+.dr-left p{
+    float: left;
+    width: 100%;
+    margin-top: 35px;
+    
+    width: 100%;
+    font-size: 16px;
+    color: #000;
+    
+    font-weight: 100;
+}
+.dr-right{
+    float: left;
+    width: 40%;
+}
+.dr-right img{
+    width: 100%;
+}
+
+.drv-btn{
+    float: left;
+}
+.drv-btn span{
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+    color: #0e667e;
+    
+    -webkit-transition: .2s linear;
+    transition: .2s linear;
+}
+.drv-btn-arrow{
+    float: left;
+    height: 13px;
+    margin-left: 15px;
+    margin-top: 1.5px;
+    -webkit-transition: .2s linear;
+    transition: .2s linear;
+}
+.drv-btn-arrow img{
+    height: inherit;
+}
+.drv-btn:hover .drv-btn-arrow{
+    margin-left: 20px;
+}
+.drv-btn:hover span{
+    color: #014153;
+}
+
+.driver-4{
+    float: left;
+    width: 90%;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    
+    background: #f8f8f8;
+}
+.dr-4{
+    float: left;
+    width: 33%;
+    position: relative;
+}
+.dr-4-img{
+    float: left;
+    width: 100%;
+}
+.dr-4-img img{
+    float: left;
+    height: 100px;
+}
+.dr-4 h1{
+    float: left;
+    width: 100%;
+    
+    margin-top: 70px;
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #0094ac;
+}
+.dr-4 h2{
+    float: left;
+    width: 80%;
+    margin-right: 20%;
+    margin-bottom: 35px;
+    font-size: 16px;
+    font-weight: 100;
+    color: #000;
+} 
+.drv-44{
+    float: left;
+    width: 100%;
+}
+.drv-4{
+    float: left;
+    width: 33%;
+}
+
