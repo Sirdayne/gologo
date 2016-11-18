@@ -27,6 +27,15 @@ $(document).ready(function(){
     $('.telephone span img').css('width' , width );
     $('.telephone span img').css('width' , '-=40' );
     */
+    
+    var widthT = $('.js-tel-img').css('width');
+    $('.js-inner').css('width', widthT);
+    $('.js-inner').css('width', '-=30');
+    
+    var heightT = $('.js-tel-img').css('height');
+    $('.js-inner').css('height', heightT );
+    $('.js-inner').css('height', '-=30');
+    
     $('.main-tel').waypoint({
         handler: function(direction) {
             if (direction === 'down') {
