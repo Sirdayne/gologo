@@ -19,11 +19,16 @@ body{
     margin-right: 10%;
     width: 80%;
 }
+.wrap-8{
+    margin-left: 10%;
+    width: 90%;
+}
 .navigation{
     position: fixed;
     top: 0;
     left: 0;
     width: 98%;
+    min-width: 900px;
     margin-left: 1%;
     
     height: 80px;
@@ -344,7 +349,7 @@ body{
     width: 30px;
     margin-top: 50px;
     margin-left: 5%;
-    background: #ccc;
+    background: #fff;
 }
 
 .tel-right-section{
@@ -353,7 +358,6 @@ body{
     padding-top: 30vh;
     padding-bottom: 20vh;
     height: 50vh;
-    text-align: center;
 }
 .tel-right-section h1{
     float: left;
@@ -363,6 +367,8 @@ body{
     font-size: 40px;
     font-weight: 900;
     font: 'AgoraSansProBold';
+    color: #0e667e;
+    
 }
 .tel-right-section p{
     float: left;
@@ -371,6 +377,7 @@ body{
     margin-top: 50px;
     padding-right: 20%;
     font-size: 17px;
+    color: #464646;
 }
 
 .main-tesla{
@@ -393,21 +400,29 @@ body{
     float: left;
     width: 50%;
     height: auto;
-    text-align: center;
 }
 .main-tesla-text h2{
     color: #C7C7C7;
     font-size: 24px;
-    width: 100%;
+    width: 50%;
+    margin-left: 25%;
 }
 .main-tesla-text h1{
     margin-top: 125px;
     font-size: 28px;
-    width: 100%;
+    width: 50%;
+    margin-left: 25%;
+    color: #0e667e;
+    font-weight: bold;
+    letter-spacing: 1px;
 }
 .main-tesla-text p{
     margin-top: 35px;
-    width: 100%;
+    width: 50%;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 100;
+    margin-left: 25%;
 }
 .main-tesla-img{
     float: left;
@@ -455,6 +470,10 @@ body{
     margin-left: 5%;
     margin-right: 5%;
 }
+.tablet-b-2{
+    text-align: right;
+}
+
 .tablet-e{
     float: left;
     width: 40%;
@@ -463,6 +482,7 @@ body{
 .tablet-i{
     float: left;
     width: 40%;
+    margin-top: 100px;
 }
 .tablet-i img{
     float: left;
@@ -481,21 +501,47 @@ body{
 }
 .tablet-b span{
     color: #0093AC;
+    font-weight: bold;
+}
+.tablet-b-2 h1{
+    float: right;
 }
 
-.footer-img{
+
+.gologo-clients{
     float: left;
     width: 100%;
+    background: #fdfdfe;
 }
-.footer-img img{
-    float: right;
-    position: relative;
-    height: 700px;
-    margin-bottom: -200px;
-    z-index: 2;
-    margin-right: 50px;
+.gologo-clients h1{
+    float: left;
+    width: 100%;
+    
+    font-size: 32px;
+    font-weight: bold;
+    color: #0e667e;
+    text-align: center;
 }
-
+.prefooter{
+    float: left;
+    width: 100%;
+    height: 500px;
+    background: #fbfbfb;
+}
+.prefooter h1{
+    float: left;
+    width: 60%;
+    margin-top: 200px;
+    margin-right: 30%;
+    margin-left: 10%;
+    
+    font-size: 42px;
+    font-weight: 500;
+    color: #464646;
+}
+.prefooter span{
+    color: #0e667e;
+}
 .footer{
     position: relative;
     z-index: 1;
@@ -505,6 +551,16 @@ body{
     
     color: #fff;
     background: #000;
+}
+.footer-img{
+    position: absolute;
+    height: 600px;
+    right: 100px;
+    top: -300px;
+    z-index: 2;
+}
+.footer-img img{
+    height: inherit;
 }
 .footer-logo-ios{
     float: left;
@@ -826,3 +882,64 @@ body{
     width: 33%;
 }
 
+.driver-8{
+    float: left;
+    width: 100%;
+    
+    background: #fff;
+}
+.driver-8 h1{
+    margin-top: 50px;
+}
+.driver-8 p{
+    margin-bottom: 50px;
+}
+.driver-8 .drv-btn{
+    margin-bottom: 50px;
+}
+.dr-8{
+    float: left;
+    height: 400px;
+    width: 40%;
+    
+    background: url(../img/s-rul.png) center center no-repeat;
+    background-size: cover;
+}
+.driver-9{
+    float: left;
+    width: 100%;
+    padding-top: 150px;
+    padding-bottom: 300px;
+
+    background: #f6f6f6;
+}
+.part-9{
+    float: left;
+    width: 45%;
+    margin-right: 5%;
+    
+
+    background: #f6f6f6;
+}
+.part-9 h1{
+    float: left;
+    width: 100%;
+
+    font-size: 42px;
+    font-weight: 100;
+    color: #0e667e;
+}
+.part-9 h2{
+    float: left;
+    width: 100%;
+
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 16px;
+    font-weight: 100;
+    color: #000;
+}
+.part-9-row{
+    float: left;
+    width: 100%;
+}
