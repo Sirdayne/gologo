@@ -3,6 +3,16 @@ $(document).ready(function(){
         $(this).toggleClass('burger-active');
     });
     
+    $('.dot-1, .dot-2, .driver-stories-btn-1, .driver-stories-btn-2').click(function() {
+        $('.dot-1').toggleClass('dot-active');
+        $('.dot-2').toggleClass('dot-active');
+        
+        $('.driver-stories').toggleClass('driver-stories-active');
+        
+        $('.driver-stories-btn-1').toggleClass('dr-st-active');
+        $('.driver-stories-btn-2').toggleClass('dr-st-active');
+    });
+    
     var telephone = $('.telephone');
     var marginLeft = $('.telephone-2 img').css('margin-left');
     var height = $('.telephone-2 img').css('height');
