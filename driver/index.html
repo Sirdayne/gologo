@@ -45,16 +45,17 @@
         
         <div class="main-pattern">
             <div class="header-image header-2">
-                <img src="../img/s2-header.png" alt="">
                 
-                <div class="header-form-right header-form-dr">
-                    <div class="form-row"><p>Company<br>name</p></div>
-                    <div class="form-row"><p>Name</p></div>
-                    <div class="form-row"><p>Phone</p></div>
-                    <div class="form-row"><p>Email</p></div>
-                    <div class="form-cub"></div>
+                <div class="frm-next">
+                    <div class="frm-n">Start driving with GoLogo</div>
+                    <div class="frm-n">
+                        
+                        <img src="../img/btn-arrow.png" alt="">
+                        <span>SIGN UP</span>
+                    </div>
                 </div>
-                <div class="header-form-left header-form-dr">
+                
+                <div class="header-form-left frm-up">
                     <form method="post" action="">  
                     
                         <!-- Hidden Required Fields -->
@@ -62,14 +63,37 @@
                         <input type="hidden" name="admin_email" value="mussinyernar@gmail.com">
                         <input type="hidden" name="form_subject" value="Gologo New Client">
                         <!-- END Hidden Required Fields -->
-
-                            <input type="text" name="COMPANY NAME" required>
-                            <input type="text" name="NAME" required>
-                            <input type="tel"  name="PHONE NUMBER" required>
-                            <input type="email" name="WEBSITE">
                             
-                        <button>Join</button>
-
+                            <div class="form-img">
+                                <img src="../img/form.png" alt="">
+                            </div>
+                            
+                            <div class="form-option">
+                                
+                                <div class="frm frm-client frm-js frm-active">
+                                    <span>Client</span>
+                                    <div class="frm-line"></div>
+                                </div>
+                                <div class="frm-or">or</div>
+                                <div class="frm frm-driver frm-js">
+                                    <span>Driver</span>
+                                    <div class="frm-line"></div>
+                                </div>
+                                
+                            </div>
+                            
+                            <div class="input-label"><p>COMPANY NAME</p></div>
+                            <input type="text" name="COMPANY NAME" placeholder="Enter your company name" required>
+                            <div class="input-label"><p>NAME</p></div>
+                            <input type="text" name="NAME" placeholder="Enter your full name" required>
+                            <div class="input-label"><p>PHONE</p></div>
+                            <input type="tel"  name="PHONE NUMBER" placeholder="Enter your phone number" required>
+                            <div class="input-label"><p>EMAIL</p></div>
+                            <input type="email" name="EMAIL" placeholder="Enter your email">
+                            
+                        <div class="btn-form-wrp">    
+                            <button>Join</button>
+                        </div>
                     </form>
                 </div>
             </div>

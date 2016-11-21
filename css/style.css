@@ -1,3 +1,46 @@
+ @-webkit-keyframes frm-anima {   
+     0%{
+        right: calc(100% - 550px);
+     }
+     99%{
+        right: 150%;
+     }
+     100%{
+         display: none;
+     }
+  }
+
+ @keyframes frm-anima {   
+     0%{
+        right: calc(100% - 550px);
+     }
+     99%{
+        right: 150%;
+     }
+     100%{
+         display: none;
+     }
+  }
+
+
+ @-webkit-keyframes frm-up {   
+     0%{
+        top: 2000px;
+     }
+     100%{
+        top: -20px;
+     }
+  }
+
+ @keyframes frm-up {   
+     0%{
+        top: 2000px;
+     }
+     100%{
+        top: -20px;
+     }
+  }
+
 body{
     background: #E5E5E4;
 }
@@ -125,7 +168,8 @@ body{
     float: left;
     width: 100%;
     background: #fff;
-    padding-bottom: 50px;
+    
+    height: 100px;
 }
 .header-dr{
     padding-top: 40px;
@@ -159,13 +203,24 @@ body{
 }
 .header-image{
     float: left;
-    width: 75%;
-    height: auto;
+    width: 85%;
+    height: 550px;
     position: relative;
     z-index: 3;
+    
+    background: url(../img/gologo-header.jpg) center center no-repeat;
+    background-size: cover;
 }
+
 .header-2{
-    width: 80%;
+    float: left;
+    width: 85%;
+    height: 450px;
+    position: relative;
+    z-index: 3;
+    
+    background: url(../img/s2-header.png) center center no-repeat;
+    background-size: cover;
 }
 .header-form-right{
     position: absolute;
@@ -201,38 +256,126 @@ body{
 .header-form-left{
     position: absolute;
     height: auto;
-    width: 200px;
-    right: -200px;
-    top: 250px;
-    background: #0e667e;
+    width: 350px;
+    right: -10%;
+    top: -20px;
+    background: #0094ac;
     z-index: 4;
     padding-top: 25px;
     padding-bottom: 40px;
+    
+    display: none;
 }
+
+.form-option{
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.frm{
+    display: inline-block;
+    color: #000;
+}
+.frm-or{
+    display: inline-block;
+    color: #000;
+    font-size: 15px;
+}
+.frm-client{
+    font-size: 17px;
+    margin-right: 15px;
+    letter-spacing: 1px;
+    font-family: "AgoraSansProMedium";
+}
+.frm-driver{
+    font-size: 17px;
+    margin-left: 15px;
+    letter-spacing: 1px;
+    font-family: "AgoraSansProMedium";
+}
+.frm-js{
+    cursor: pointer;
+    
+    -webkit-transition: .3s linear;
+    transition: .3s linear;
+}
+.frm-active{
+    color: #fff;
+    position: relative;
+}
+.frm-line{
+    display: none;
+}
+.frm-line{
+    position: absolute;
+    height: 3px;
+    bottom: -5px;
+    width: 100%;
+    
+    background: #000;
+}
+.frm-active .frm-line{
+    display: block;
+}
+
 .header-form-dr{
     top: 100px;
+}
+.input-label{
+    float: left;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: rgba(255,255,255,1);
+    margin-top: 25px;
+}
+.input-label p{
+    color: #fff;
+    font-size: 15px;
 }
 .header-form-left input{
     font-size: 15px;
     outline: none;
     border: none;
-    border-bottom: 1px solid rgba(255,255,255,0.6);
-    padding: 30px 20px 10px 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    padding: 10px 0px 10px 0px;
     font-family:"AgoraSansProRegular";
     background: rgba(0,0,0,0);
-    width: 38%;
-    margin-right: 25px;
-    max-width: 500px;
-    color: #fff;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: rgba(255,255,255,0.7);
 }
-.header-form-left input:focus {
-    border-bottom: 1px solid #3ab8bd;
+/* do not group these rules */
+.header-form-left input::-webkit-input-placeholder {
+    color: rgba(255,255,255,0.2);
+}
+.header-form-left input:-moz-placeholder {
+    /* FF 4-18 */
+    color: rgba(255,255,255,0.2);
+}
+.header-form-left input::-moz-placeholder {
+    /* FF 19+ */
+    color: rgba(255,255,255,0.2);
+}
+.header-form-left input:-ms-input-placeholder {
+    /* IE 10+ */
+    color: rgba(255,255,255,0.2);
+}
+.header-form-left input:focus{
+    border-bottom: 1px solid #85eeff;
+    color: rgba(255,255,255,0.7);
+}
+.btn-form-wrp{
+    float: left;
+    width: 100%;
 }
 .header-form-left button{
-    float: left;
+    display: block;
+    margin: 30px auto;
     
-    padding: 16px 40px;
-    margin-top: 8px;
+    padding: 10px 40px;
     letter-spacing: 2px;
     
     -webkit-transition: .3s linear;
@@ -258,7 +401,18 @@ body{
     float: left;
     width: 100%;
 }
-
+.form-img{
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.form-img img{
+    display: block;
+    float: none;
+    margin: auto;
+    width: 200px;
+}
 
 .main-tel{
     float: left;
@@ -278,6 +432,59 @@ body{
     float: left;
     width: 50%;
     height: auto;
+}
+.frm-next{
+    position: absolute;
+    bottom: -50px;
+    right: calc(100% - 550px);
+
+    height: auto;
+    width: 300px;
+    padding: 45px;
+    
+    background: #0094ac;
+    cursor: pointer;
+    
+    -webkit-transition: ..3s linear;
+    transition: .3s linear;
+}
+.frm-anima{
+    animation: frm-anima 1s ease-in;
+    -webkit-animation: frm-anima 1s ease-in;
+    
+    right: 150%; 
+}
+.frm-up{
+    animation: frm-up 1.2s ease-in;
+    -webkit-animation: frm-up 1.2s ease-in;
+}
+.frm-n{
+    float: left;
+    width: 100%;
+    color: #fff;
+    font-size: 17px;
+    opacity: 1;
+}
+
+.frm-n span{
+    float: right;
+    color: #fff;
+}
+.frm-n img{
+    float: right;
+    width: 30px;
+    margin-top: 5px;
+    margin-left: 8px;
+    
+    -webkit-transition: .3s linear;
+    transition: .3s linear;
+}
+.frm-next:hover{
+    background: #0d9eb5;
+}
+.frm-next:hover img{
+    margin-right: 5px;
+    margin-left: 13px;
 }
 
 
@@ -947,11 +1154,12 @@ body{
 .driver-stories{
     position: absolute;
     
-    width: 100vw;
+    width: 100%;
+    min-width: 600px;
     padding-top: 50px;
     padding-bottom: 50px;
     top: 180px;
-    left: 20vw;
+    left: 20%;
 
     
     background: #f8f8f8;
@@ -960,12 +1168,13 @@ body{
     transition: .3s ease-out;
 }
 .driver-stories-active{
-    left: -20vw;
+    left: -20%;
     
 }
 .driver-story{
     float: left;
     width: 30%;
+    min-width: 200px;
     
     margin-right: 3%;
     background: #fff;
@@ -1028,7 +1237,7 @@ body{
 .driver-stories-btn-1, .driver-stories-btn-2{
     position: absolute;
     top: 200px;
-    right: calc(20vw + 50px);
+    right: calc(20% + 50px);
     
     height: 50px;
     width: 50px;
@@ -1048,7 +1257,7 @@ body{
 .driver-stories-btn-2{
     position: absolute;
     top: 200px;
-    left: 20vw;
+    left: 20%;
     
      height: 50px;
     width: 50px;
@@ -1133,3 +1342,23 @@ body{
     float: left;
     width: 100%;
 }
+
+.d-1{
+    -webkit-animation-delay: .5s;
+    animation-delay: .5s;
+}
+.d-2{
+    -webkit-animation-delay: .2s;
+    animation-delay: .2s;
+}
+.d-3{
+    -webkit-animation-delay: .3s;
+    animation-delay: .3s;
+}
+.d-4{
+    -webkit-animation-delay: .8s;
+    animation-delay: .8s;
+}
+.d-5{
+    -webkit-animation-delay: 1s;
+  

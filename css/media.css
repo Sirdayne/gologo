@@ -36,6 +36,9 @@
     .header-navigation{
         margin-top: 85px;
     }
+    .tel-fixed{
+        display: none !important;
+    }
 	
 }
 
@@ -169,6 +172,9 @@
 }
 
 @media only screen and (max-width : 1000px) {
+    .tel-fixed{
+        display: none !important;
+    }
     .loader-right, .loader-left, .loader_inner, .loader{
         display: none;
     }
