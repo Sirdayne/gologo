@@ -62,6 +62,11 @@ body{
     margin-right: 10%;
     width: 80%;
 }
+.wrap-map{
+    margin-left: 10%;
+    margin-right: 0%;
+    width: 90%;
+}
 .wrap-8{
     margin-left: 10%;
     width: 90%;
@@ -172,7 +177,7 @@ body{
     height: 100px;
 }
 .header-dr{
-    padding-top: 40px;
+    padding-top: 0px;
 }
 .header h1{
     margin-top: 100px;
@@ -222,6 +227,29 @@ body{
     background: url(../img/s2-header.png) center center no-repeat;
     background-size: cover;
 }
+.header-client{
+    float: left;
+    width: 95%;
+    height: 450px;
+    position: relative;
+    z-index: 3;
+    
+    background: url(../img/client-header.png) center center no-repeat;
+    background-size: cover;
+}
+.white-fix{
+    position: absolute;
+    width: 90%;
+    height: 50px;
+    
+    
+    bottom: 0px;
+    left: 0;
+    
+    background: #fff;
+    
+    z-index: 4;
+}
 .header-form-right{
     position: absolute;
     height: auto;
@@ -265,6 +293,10 @@ body{
     padding-bottom: 40px;
     
     display: none;
+}
+.header-form-client{
+    right: 10%;
+
 }
 
 .form-option{
@@ -447,6 +479,8 @@ body{
     
     -webkit-transition: ..3s linear;
     transition: .3s linear;
+    
+    z-index: 5;
 }
 .frm-anima{
     animation: frm-anima 1s ease-in;
@@ -816,6 +850,329 @@ body{
     background-size: 100% 100%;
 }
 
+
+.client-1{
+    float: left;
+    width: 90%;
+    height: auto;
+    background: #fff;
+    padding-bottom: 75px;
+
+}
+.client-1 h1{
+    float: left;
+    width: 100%;
+    margin-top: 100px;    
+    font-size: 52px;
+    
+    font-weight: 900;
+    color: #0e667e;
+}
+.client-1 h2{
+    float: left;
+    width: 100%;
+    font-size: 42px;
+    
+    font-weight: 100;
+    color: #000;
+}
+
+.cl-1{
+    float: left;
+    width: 33%;
+}
+.cl-1 h1{
+    float: left;
+    width: 100%;
+    font-size: 24px;
+    font-weight: 900;
+    color: #0e667e;
+}
+.cl-text{
+    float: left;
+    margin-top: 25px;
+    width: 70%;
+    font-size: 16px;
+    
+    font-weight: 100;
+    color: #000;
+}
+.cl-text span{
+    color: #166981;
+    font-weight: bold;
+    font-family: "AgoraSansProRegular";
+}
+
+.client-row{
+    float: left;
+    width: 100%;
+}
+.client-calculator{
+    float: left;
+    width: 90%;
+    
+    background: #f8f8f9;
+    padding-bottom: 75px;
+}
+.client-calculator h2{
+    float: left;
+    width: 100%;
+    
+    margin-top: 75px;
+    font-size: 42px;
+    
+    font-weight: 100;
+    color: #0e667e;
+    
+    margin-bottom: 50px;
+}
+.calc-left{
+    float: left;
+    width: 60%;
+    margin-bottom: 55px;
+}
+.calc-left img{
+    float: left;
+    width: 100%;
+}
+.calc-right{
+    float: left;
+    width: 40%;
+    margin-bottom: 55px;
+}
+.calc-right h3{
+    float: left;
+    width: 90%;
+    margin-left: 10%;
+    
+    color: #0e667e;
+    font-size: 24px;
+    font-weight: normal;
+}
+.calc-right p{
+    float: left;
+    width: 90%;
+    margin-left: 10%;
+    margin-top: 25px;
+    
+    color: #000;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.client-map{
+    float: left;
+    width: 90%;
+    
+    background: #fff;
+    padding-bottom: 75px;
+}
+.map-left{
+    float: left;
+    width: 40%;
+    
+    padding: 100px 0;
+    
+    box-sizing: border-box;
+}
+.m-1{
+    float: left;
+    width: calc( 100% - 35px);
+    margin-left: 35px;
+    margin-top: 5px;
+    
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    
+    position: relative;
+    cursor: pointer;
+}
+.m-1 span{
+    position: absolute;
+    height: 15px;
+    width: 14px;
+    top: 4px;
+    left: -25px;
+    
+    background: url(../img/map-arrow.png) center center no-repeat;
+    background-size: cover;
+    opacity: 0;
+    
+    -webkit-transition: .2s linear;
+    transition: .2s linear;
+}
+.m-1:hover span{
+    opacity: 1;
+}
+.map-right{
+    float: left;
+    width: 60%;
+}
+.map-right img{
+    float: left;
+    width: 100%;
+}
+.client-cpm{
+    float: left;
+    width: 90%;
+    
+    background: #f8f8f9;
+    padding-bottom: 75px;
+}
+.client-cpm h2{
+    float: left;
+    width: 100%;
+    
+    margin-top: 75px;
+    font-size: 42px;
+    
+    font-weight: 100;
+    color: #0e667e;
+    
+    margin-bottom: 50px;
+}
+.cpm-text{
+    float: left;
+    width: 100%;
+    
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+}
+.cpm-text span{
+     color: #0e667e;
+}
+.cpm-img{
+    float: left;
+    width: 100%;
+}
+.cpm-img img{
+    margin-top: 60px;
+    width: 100%;
+}
+.client-gologo{
+    float: left;
+    width: 90%;
+    margin-left: 10%;
+    
+    background: #fff;
+    
+}
+.client-f1{
+    float: left;
+    width: 70%;
+    
+    box-sizing: border-box;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.client-f1 h1{
+    float: left;
+    width: 100%;
+    
+    
+    font-size: 44px;
+    
+    color: #0e667e;
+}
+.client-f2{
+    float: left;
+    width: 30%;
+    box-sizing: border-box;
+    padding-top: 110px;
+    padding-left: 55px
+}
+.client-security{
+    float: left;
+    width: 100%;
+    
+    background: #f6f6f6;
+    padding-bottom: 100px;
+}
+.client-security h2{
+    float: left;
+    width: 100%;
+    
+    margin-top: 105px;
+    font-size: 42px;
+    
+    font-weight: 100;
+    color: #0e667e;
+    
+    margin-bottom: 50px;
+}
+.security-text{
+    float: left;
+    width: 100%;
+    
+    color: #000;
+    font-size: 24px;
+    line-height: 35px;
+    font-weight: 600;
+}
+.security-text span{
+     color: #0e667e;
+}
+.client-brands{
+    float: left;
+    width: 100%;
+    
+    box-sizing: border-box;
+    
+    background: #fff;
+    padding: 75px 0;
+}
+.cl-br{
+    float: left;
+    width: 33%;
+
+}
+.cl-br img{
+    float: left;
+    height: 350px;
+}
+.cl-br h1{
+    float: left;
+    width: 100%;
+    margin-top: 55px;
+    
+    font-size: 26px;
+    font-weight: bold;
+    
+    color: #0e667e;
+}
+.cl-br p{
+    float: left;
+    width: 100%;
+    margin-top: 25px;
+    
+    font-size: 18px;
+    color: #000;
+}
+.client-footer{
+    float: left;
+    width: 100%;
+    
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+    background: #fff;
+}
+.cl-footer{
+    float: left;
+    width: 100%;
+    
+    margin-bottom: 55px;
+}
+.cl-footer p{
+    float: left;
+    width: 100%;
+    color: #000;
+    font-size: 24px;
+}
+
+
 .driver-1{
     float: left;
     width: 90%;
@@ -891,7 +1248,6 @@ body{
     float: left;
     width: 100%;
     
-    width: 100%;
     font-size: 42px;
     
     font-weight: 100;
