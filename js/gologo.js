@@ -23,6 +23,11 @@ $(document).ready(function(){
         $('.frm-next').addClass('frm-anima');
     });
     
+    $('.frm-next-right').click(function() {
+        $('.header-form-left').show();
+        $('.frm-next-right').addClass('frm-right');
+    });
+    
     var telephone = $('.telephone');
     var marginLeft = $('.telephone-2 img').css('margin-left');
     var height = $('.telephone-2 img').css('height');
@@ -37,6 +42,17 @@ $(document).ready(function(){
     $('.telephone span img').css('width' , width );
     $('.telephone span img').css('width' , '-=40' );
     */
+    
+    $('.faq-que').click(function() {
+
+        //$('.faq-que').removeClass('faq-active');
+        $(this).toggleClass('faq-active');
+
+        //$('.faq-ans').slideUp('fast');
+        var index = $(".faq-que").index(this);
+
+        $('.faq-ans').eq( index ).slideToggle('fast');
+    });
     
     var widthT = $('.js-tel-img').css('width');
     $('.js-inner').css('width', widthT);
